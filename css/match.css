@@ -158,18 +158,28 @@ body {
   padding: 0 70px 0 0;
 }
 .scarves .osnova__logo img {
-  height: 100px;
+  height: 90px;
+}
+.scarves .osnova__text {
+  padding: 0 70px 0 0;
 }
 .scarves .osnova__text__txt {
-  padding: 0 0 10px 0;
+  padding: 0 0 5px 0;
 }
 .scarves .osnova__text__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+.scarves .osnova__text__logo .shet {
+  padding: 0 10px 0 10px;
 }
 .scarves .osnova__text__logo img {
   height: 50px;
@@ -184,6 +194,7 @@ body {
 }
 .scarf img {
   width: 80%;
+  max-width: 800px;
 }
 .scarf__picture {
   padding: 5px;
