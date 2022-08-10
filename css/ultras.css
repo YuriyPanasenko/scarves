@@ -88,89 +88,117 @@ body {
   height: 100%;
 }
 
-header {
-  padding: 20px 0 0px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-header .logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px 50px 20px 50px;
-}
-header h1 {
+.zagolovok {
   text-align: center;
   font-size: 50px;
   padding: 20px;
   font-family: "Caveat";
   letter-spacing: 2px;
 }
-header .text {
-  padding: 10px 10px 20px 10px;
-  text-align: left;
+
+.number {
+  text-align: center;
   font-size: 25px;
   font-family: "Oswald";
   line-height: 27px;
   letter-spacing: 1px;
 }
 
-.wrapper {
-  text-align: center;
-  font-family: "Oswald";
-  font-size: 14px;
-  padding: 20px;
-}
-.wrapper h2 {
-  font-size: 40px;
-  font-family: "Caveat";
-  letter-spacing: 2px;
-}
-.wrapper .block {
+.turniry {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 130px 0px 130px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.wrapper .block__one {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 33.3%;
-          flex: 1 0 33.3%;
-  padding: 0 20px 0 20px;
-}
-.wrapper .block__one .emblem {
+.turniry .season {
+  background-color: rgba(245, 241, 0, 0.3);
   padding: 10px;
+  text-align: center;
 }
-.wrapper .block__one .emblem img {
-  width: 80%;
+.turniry .season:first-child {
+  border-radius: 50px 0px 0px 0px;
 }
-.wrapper .block__one .zagolovok {
-  padding: 10px;
-  background-color: rgba(73, 115, 255, 0.4);
-  border-radius: 0px 30px 0px 30px;
+.turniry .season:last-child {
+  border-radius: 0px 0px 50px 0;
 }
-.wrapper .block__one .text {
-  padding: 10px;
-  letter-spacing: 1px;
+.turniry .season .logo {
+  padding: 0 0 10px 0;
+}
+.turniry .season img {
+  height: 100px;
+}
+
+.scarves {
+  font-family: "Oswald";
+  text-align: center;
+  font-size: 30px;
   line-height: 17px;
+  letter-spacing: 1px;
+  padding: 10px 0 0 0;
 }
-.wrapper .block__one:hover {
-  border-radius: 10px;
-  -webkit-transition: all 0.8s ease 0.2s;
-  transition: all 0.8s ease 0.2s;
-  -webkit-box-shadow: 0 0 40px rgba(245, 241, 0, 0.8);
-          box-shadow: 0 0 40px rgba(245, 241, 0, 0.8);
+.scarves .osnova {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 5px 0;
+}
+.scarves .osnova__logo {
+  padding: 0 70px 0 0;
+}
+.scarves .osnova__logo img {
+  height: 90px;
+}
+.scarves .osnova__text {
+  padding: 0 70px 0 0;
+}
+.scarves .osnova__text__txt {
+  padding: 0 0 5px 0;
+}
+.scarves .osnova__text__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+.scarves .osnova__text__logo .shet {
+  padding: 0 10px 0 10px;
+}
+.scarves .osnova__text__logo img {
+  height: 50px;
+}
+
+.scarf {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald";
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.scarf img {
+  width: 80%;
+  max-width: 800px;
+}
+.scarf__picture {
+  padding: 5px;
+}
+.scarf__picture img {
+  padding: 0 0 10px 0;
 }
